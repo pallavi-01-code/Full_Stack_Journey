@@ -14,6 +14,6 @@ button {
     color: coral;
 }
 
-#headingThree{
-    color: crimson;
+.myClass {
+    color: darkviolet;
 }
