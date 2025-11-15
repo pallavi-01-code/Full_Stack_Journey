@@ -1,13 +1,7 @@
-#box {
-    background-color: blue;
-    /* color: white; */
-    /* This is a comment */
+p {
+    text-align: center;
 }
 
-.heading {
-    color: red;
-}
-
-button {
-    background-color: green;
+h1 {
+    text-align: right;
 }
