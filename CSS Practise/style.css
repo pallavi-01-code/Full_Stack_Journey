@@ -1,7 +1,9 @@
 p {
-    text-align: center;
+    /* text-align: center; */
+    text-align: start; /* in english means left*/
 }
 
 h1 {
-    text-align: right;
+    /* text-align: right; */
+    text-align: end; /* in english means right*/
 }
