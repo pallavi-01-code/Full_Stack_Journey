@@ -1,24 +1,43 @@
-div {
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#navBar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+}
+
+button {
+    background-color : #f08804;
+}
+
+#logo {
+    color : #f08804;
+    font-size: 25px
+}
+
+a {
+    margin-right: 200px;
+    text-decoration: none;
+    color: white;
+}
+
+.contentBox {
     height: 100px;
     width: 100px;
-    margin: 25px;
-    padding: 25px;
+    border: 2px solid black;
     display: inline-block;
 }
 
-#box1 {
-    background-color: royalblue;
+#content {
+    height: 600px;
 }
 
-#box2 {
-    background-color: olive;
-    visibility: hidden;
+footer {
+    background-color : #0f1111;
+    color: white;
+    text-align: center;
 }
 
-#box3 {
-    background-color: rosybrown;
-}
-
-h1 {
-    display: none;
-}
