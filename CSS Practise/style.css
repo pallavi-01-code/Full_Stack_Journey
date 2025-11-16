@@ -1,8 +1,23 @@
 div {
-    background-color: pink;
-    display: inline;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
 }
 
-button {
-    display: block;
+#box1 {
+    background-color: royalblue;
+}
+
+#box2 {
+    background-color: olive;
+}
+
+#box3 {
+    background-color: rosybrown;
+}
+
+h1 {
+    display: none;
 }
