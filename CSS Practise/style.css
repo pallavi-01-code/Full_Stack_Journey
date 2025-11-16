@@ -14,15 +14,17 @@ div {
     position: relative;
     top: 20px;
     left: 10px;
+    z-index: 1;
 }
 
 #box3 {
-    position: sticky;
-    top: 0px;
+    position: absolute;
+    top: 500px;
     left: 20px;
 }
 
 #box4 {
     position: fixed;
-    top: 0;
+    top: 50px;
+    z-index: -3;
 }
