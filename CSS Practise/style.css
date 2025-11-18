@@ -4,14 +4,14 @@ body {
 
 div {
     height: 100px;
-    width: 150px;
+    width: 50px;
     display: inline-block;
     border: 2px solid black;
 }
 
 #container {
-    width: 600px;
-    height: 600px;
+    width: 700px;
+    height: 300px;
     display: flex;
     flex-direction: row;
     /*flex direction row means main(horizontal) axis is left to right
@@ -21,18 +21,22 @@ div {
     and cross axis is 90 degree means in row case cross axis is vertical
     in columns case cross axis is horizontal*/
     justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: flex-start;
     /* align-content: flex-end; */
 }
 
 #box1 {
     background-color: pink;
+    flex-grow: 1;
 }
 
 #box2 {
     background-color: cadetblue;
     height: 200px;
+    /* align-self: flex-end; */
+    /* flex-shrink: 1; */
+    flex-grow: 2;
 }
 
 #box3 {
@@ -46,4 +50,5 @@ div {
 
 #box5 {
     background-color: darkgreen;
+    /* align-self: flex-end; */
 }
