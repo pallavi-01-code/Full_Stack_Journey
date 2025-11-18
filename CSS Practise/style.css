@@ -1,54 +1,32 @@
-body {
-    text-align: center;
-}
-
-div {
-    height: 100px;
-    width: 50px;
-    display: inline-block;
-    border: 2px solid black;
-}
-
-#container {
-    width: 700px;
-    height: 300px;
-    display: flex;
-    flex-direction: row;
-    /*flex direction row means main(horizontal) axis is left to right
-    row-reverse means  main axis is right to left
-    column means main axis will be vertical and top to bottom
-    column-reverse means main axis will be vertical and bottom to top
-    and cross axis is 90 degree means in row case cross axis is vertical
-    in columns case cross axis is horizontal*/
-    justify-content: center;
-    /* flex-wrap: wrap; */
-    align-items: flex-start;
-    /* align-content: flex-end; */
-}
-
-#box1 {
+.navBar ul {
     background-color: pink;
-    flex-grow: 1;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-#box2 {
-    background-color: cadetblue;
-    height: 200px;
-    /* align-self: flex-end; */
-    /* flex-shrink: 1; */
-    flex-grow: 2;
+a {
+    text-decoration: none;
+    color: black;
 }
 
-#box3 {
-    background-color: chocolate;
-    height: 75px;
+li {
+    list-style-type: none;
+    /* background-color: bisque; */
+    display: inline;
 }
 
-#box4 {
-    background-color: crimson;
+.outer {
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center; /*for main axis*/
+    align-items: center; /*for cross axis and is applied on container*/
 }
 
-#box5 {
-    background-color: darkgreen;
-    /* align-self: flex-end; */
+.inner {
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    align-self: flex-start;
 }
