@@ -13,15 +13,18 @@ div {
     /* animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-direction: alternate; */
-    animation: colorAnimate 2s ease-in 0s infinite normal;
+    animation: colorAnimate 2s ease-in 1s infinite normal;
 }
 
 @keyframes colorAnimate {
-    from { left: 0px;}
-    to { left: 200px;}
-}
-
-div:hover { 
-
+    from { 
+          left: 0px;
+          background-color: mediumvioletred;
+        }
+    to { 
+        left: 200px;
+        background-color: burlywood;
+        color: brown;
+    }
 }
 
