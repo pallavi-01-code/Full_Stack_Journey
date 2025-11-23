@@ -1,21 +1,24 @@
 div {
     height: 100px;
     width: 100px;
+    /* border-radius: 50%; */
     background-color: aquamarine;
     border: 2px solid black;
     position: absolute;
     top: 100px;
     left: 100px;
-    animation-name: colorAnimate;
-    animation-duration: 0.25s;
+    /* animation-name: colorAnimate;
+    animation-duration: 2s; */
     /* animation-timing-function: ease-in; */
-    animation-delay: 0s;
+    /* animation-delay: 0s;
     animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    animation: colorAnimate 2s ease-in 0s infinite normal;
 }
 
 @keyframes colorAnimate {
-    from { background-color: aquamarine;}
-    to { background-color: pink;}
+    from { left: 0px;}
+    to { left: 200px;}
 }
 
 div:hover { 
