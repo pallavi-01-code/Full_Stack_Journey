@@ -206,7 +206,7 @@ span {
 .hero-section {
     background-image: url("amazon-box1.jpg");
     background-size: cover;
-    height: 400px;
+    height: 380px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -228,3 +228,20 @@ span {
     color: #007185;
     text-decoration: none;
 }
+
+/** shop section **/
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ff9794e3;
+}
+
+.box {
+    border: 2px solid black;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+}
+
+
+
