@@ -305,6 +305,7 @@ ul a {
     height: 70px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .logo-foot {
@@ -313,4 +314,23 @@ ul a {
     width: 100px;
     background-repeat: no-repeat;
     background-size: contain; /* show full image without cropping */
+}
+
+.foot-panel4 {
+    background-color: #0F1111;
+    color: white;
+    height: 80px;
+    font-size: 0.75rem;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center */
+}
+
+.pages {
+    padding-top: 25px;
+}
+
+.copyright {
+    padding-top: 5px;
 }
