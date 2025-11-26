@@ -297,3 +297,20 @@ ul a {
     margin-top: 10px;
     color: #DDDDDD;
 }
+
+.foot-panel3 {
+    background-color: #222f3d;
+    color: white;
+    border: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-foot {
+    background-image: url("amazon-logo.png");
+    height: 50px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: contain; /* show full image without cropping */
+}
