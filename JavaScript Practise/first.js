@@ -1,1 +1,1 @@
-console.log("Pallavi Kapila");
+console.log("Welcome to JS Learning journey!");
