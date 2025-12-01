@@ -5,7 +5,7 @@ let x = 10;
 const y = 20;
 var isFollow = true;
 console.log(fullName);
-console.log(age);
+console.log($age);
 console.log(price);
 console.log(x);
 console.log(y);
