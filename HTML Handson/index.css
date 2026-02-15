@@ -1,3 +1,103 @@
 body {
     background-color:#f8f8f8;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.navbar {
+ padding-left:150px;
+ padding-right:150px;
+ padding-top:10px;
+ display:flex;
+ justify-content:space-between;
+}
+
+.vs-text-and-logo{
+    font-size: 20px;
+    color: #242424;
+    font-weight: 550;
+}
+
+.topLink{
+    color:rgb(123, 120, 120);
+    cursor: pointer;
+    padding-left:10px;
+}
+
+.border{
+    display:flex;
+    justify-content:center;
+}
+
+/* HERO LAYOUT */
+.div-main{
+    max-width:1200px;
+    margin-left:130px;
+    margin-right:130px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:60px 20px;
+}
+
+/* LEFT SIDE */
+.div-left{
+    max-width:500px;
+}
+
+.tagline{
+    color:#6b7280;
+    font-size:14px;
+    margin-bottom:20px;
+}
+
+/* MAIN HEADING */
+.div-left h1{
+    font-size:56px;
+    font-weight:700;
+    line-height:1.1;
+    margin-bottom:25px;
+    color:#111827;
+}
+
+/* BUTTON */
+.download-btn{
+    background:#0078d4;
+    color:white;
+    border:none;
+    padding:14px 26px;
+    font-size:16px;
+    border-radius:6px;
+    cursor:pointer;
+    margin-bottom:20px;
+}
+
+.download-btn:hover{
+    background:#106ebe;
+}
+
+/* LINKS */
+.links a{
+    color:#0078d4;
+    text-decoration:none;
+}
+
+.links a:hover{
+    text-decoration:underline;
+}
+
+/* TERMS TEXT */
+.terms{
+    font-size:13px;
+    color:#6b7280;
+}
+
+.terms a{
+    color:#0078d4;
+    text-decoration:none;
+}
+
+/* RIGHT IMAGE */
+.div-right img{
+    width:600px;
+    max-width:100%;
 }
