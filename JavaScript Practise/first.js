@@ -106,7 +106,7 @@ let user2 = {
 greett(user2);
 
 function greett3(user){
-    console.log("Hi,"+user.title+" "+user.fname+", your age is "+user.age);
+    console.log("Hi "+user.title+" "+user.fname+", your age is "+user.age);
     if(user.age > 18){
         console.log("Can vote");
     }else{
@@ -161,3 +161,47 @@ const userz= [{
 }];
 
 console.log(solve(userz));
+
+function sum(a,b){
+    return a + b;
+}
+
+let ans = sum(5,7);
+console.log(ans);
+
+function summ(n){
+    let anss = 0;
+    for(let i=0; i<=n ; i++){
+        anss += i;
+    }
+    return anss;
+    // return n * (n+1); //smart approach
+}
+
+const anss = summ(100);
+console.log(anss);
+
+function sum_a(n){
+    let anss = 0;
+    for(let i=0; i<=n ; i++){
+        anss += i;
+    }
+    return anss;
+    // return n * (n+1); //smart approach
+}
+
+const answ = sum_a(100);
+console.log(answ);
+const answ2 = sum_a(1000);
+console.log(answ);
+const answ3 = sum_a(10000);
+console.log(answ3);
+
+
+const fs = require("fs");
+
+const contents = fs.readFileSync("a.txt", "utf-8");//read the file synchronosly where a.txt is file and utf-8 is encoding in which we want the data
+console.log(contents);
+
+const data = fs.readFileSync("b.txt", "utf-8");
+console.log(data);
