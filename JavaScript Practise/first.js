@@ -205,3 +205,86 @@ console.log(contents);
 
 const data = fs.readFileSync("b.txt", "utf-8");
 console.log(data);
+
+function sum(a, b) {
+  return a + b;
+}
+
+function multiply(a, b) {
+  return a * b;
+}
+
+function subtract(a, b) {
+  return a - b;
+}
+
+function divide(a, b) {
+  return a / b;
+}
+
+const res = (sum(1, 2))
+console.log(res);
+
+
+function sum(a, b) {
+  return a + b;
+}
+
+function multiply(a, b) {
+  return a * b;
+}
+
+function subtract(a, b) {
+  return a - b;
+}
+
+function divide(a, b) {
+  return a / b;
+}
+
+function doOperation(a, b, op) {
+    //a=1,b=2, and op = sum
+  return op(a, b)
+}
+
+const resu = doOperation(1, 2, sum);
+console.log(resu);
+
+
+const fs1 = require("fs");
+
+function print_f(err, data){
+    if(err){
+        console.log("File not found!")
+    }
+    else{
+        console.log(data);
+    }  
+}
+
+fs1.readFile("a.txt", "utf-8", print_f); //asynchronous
+
+
+fs1.readFile("b.txt", "utf-8", print_f);
+
+// setTimeout(() => {
+//     console.log("hello");
+// })
+
+console.log("Done");
+
+function timeOut(){
+    console.log("Click the Button!");
+}
+console.log("Hi");
+
+setTimeout(timeOut, 1000);
+
+console.log("Welcome to Pallavi Codes!");
+
+let c = 0;
+for(let i=0;i<1000000000;i++){
+    c +=1;
+}
+
+console.log("Expensive operation done");
