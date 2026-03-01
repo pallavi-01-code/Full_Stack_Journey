@@ -288,3 +288,13 @@ for(let i=0;i<1000000000;i++){
 }
 
 console.log("Expensive operation done");
+
+var n =2;
+function square (num){ //num is parameter
+    var ans = num * num;
+    return ans;
+}
+
+var square2 = square(n);// n is argument
+var square4 = sqaure(4);
+
