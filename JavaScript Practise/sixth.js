@@ -45,7 +45,10 @@ else if(grades<=69 && grades >= 60){
 else if(grades<=59 && grades >= 50){
     console.log("D");
 }
-else {
+else if(grades<=49 && grades >= 0){
     console.log("F")
+}
+else {
+    console.log("Invalid number entered")
 }
 console.log(grades);
