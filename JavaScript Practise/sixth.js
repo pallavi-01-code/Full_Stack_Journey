@@ -32,7 +32,7 @@
 // console.log(product);
 
 
-let grades = prompt("Enter number out of 100: ")
+let grades = prompt("Hey Student, enter your score to check out your grades: ")
 if(grades<=100 && grades >= 80){
     console.log("A");
 }
