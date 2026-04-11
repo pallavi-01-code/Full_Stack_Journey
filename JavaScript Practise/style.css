@@ -25,10 +25,19 @@ button {
 } */
 
 
-#box {
+/* #box {
     height: 150px;
     width: 100px;
     background-color: cadetblue;
     color: black;
     border: 1px solid black;
+} */
+
+.myclass {
+    background-color: darkkhaki;
+    color: white;
+}
+
+.newClass {
+    background-color: chocolate;
 }
