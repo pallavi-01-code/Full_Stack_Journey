@@ -3,15 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS HandsOn </title>
+    <title>Rock Paper Scissors Game</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <!-- <button id="btn1">Click Me!</button> -->
-   <!-- <button ondblclick="console.log('Button was clicked 2x')">Click Me 2 times!</button> -->
-    <!-- <div>This is a div box</div> -->
-     <button id="mode">Change Mode</button>
-     <p>Welcome to my page</p>
-   <script src="15th.js"></script>
+    <h1>Rock Paper Scissors</h1>
+    <button id="mode">
+        <img src="./images/mode.png">
+    </button>
+    <div class="choices">
+        <div class="choice" id = "Rock">
+            <img src="./images/rock.png">
+        </div>
+        <div class="choice" id = "Paper">
+            <img src="./images/paper.png">
+        </div>
+        <div class="choice" id = "Scissors">
+            <img src="./images/scissors.png">
+        </div>
+    </div>
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>Computer</p>
+        </div>
+    </div>
+    <div class="msg-container">
+        <p id="msg">Play Your Move</p>
+    </div>
+    <button id="reset">Reset Game</button>
+    <div class="history-container">
+    <h3>Score Board</h3>
+    <ul id="history"></ul>
+    </div>
+   <script src="16th.js"></script>
 </body>
 </html>
