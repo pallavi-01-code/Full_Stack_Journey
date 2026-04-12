@@ -33,11 +33,29 @@ button {
     border: 1px solid black;
 } */
 
-.myclass {
+/* .myclass {
     background-color: darkkhaki;
     color: white;
 }
 
 .newClass {
     background-color: chocolate;
+} */
+
+/* div {
+    height: 100px;
+    width: 100px;
+    background-color:cadetblue;
+    color: wheat;
+    border: 1px solid black;
+} */
+
+.dark {
+    background-color: #0D0D0D;
+    color: white;
+}
+
+.light {
+    background-color: white;
+    color: black;
 }
