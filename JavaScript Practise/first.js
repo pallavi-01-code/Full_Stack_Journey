@@ -12,6 +12,8 @@ console.log(x);
 console.log(y);
 console.log(isFollow);
 console.log(PI);
+console.log(PI);
+
 typeof fullName;
 typeof $age;
 typeof price;
