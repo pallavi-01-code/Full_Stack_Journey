@@ -1,3 +1,7 @@
-console.log(b);
-let a = 10;
-var b = 100;
+console.log(y);
+let a = 1900;
+
+const b =100;
+
+a =10;
+console.log(a);
