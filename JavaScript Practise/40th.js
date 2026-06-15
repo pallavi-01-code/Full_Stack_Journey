@@ -16,6 +16,6 @@ class Rectangle {
    
 }
 
-const rect = new Rectangle(2, 4)
+const rect = new Rectangle(2, 4, "blue");
 const area = rect.area();
 console.log(area)
